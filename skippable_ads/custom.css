@@ -1,0 +1,377 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+th {
+  background-color: #4287f5;
+  color: white;
+}
+
+th,
+td {
+  width: 150px;
+  border: 2px solid black;
+  padding: 4px
+}
+
+table, tbody, td, tr
+{
+	border:none !important;
+}
+
+
+body{
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+
+
+.logo{
+    position:fixed;
+    top:15px;
+    right:50px; 
+  height: 30px;
+}
+
+.user_details{
+  top: 0;
+  right: 90px;
+  position: fixed;
+  height: 30px;
+}
+.user_name{
+  margin-bottom: -6px;
+}
+
+
+.outer_table {
+    width: 70%; 
+	height: 65%;
+	margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+table {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+}
+*/
+
+table {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: auto;
+}
+.left-table{
+	max-width:200px;
+	min-width:200px;
+	display:inline-block;
+	width: 30px;
+	vertical-align: top;
+	margin-top: 20px;
+	}
+.right-table{
+	  display:inline-block;
+	}
+
+/*
+.side_table {
+    width: 70%; 
+	height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+	background: yellow;
+}
+*/
+
+.inner_table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-logo{
+	margin-left: 400px
+}
+ 
+
+
+#video_logo{
+	position: absolute;
+	top: 200px; 
+	left: 1170px; /*750 in centre*/
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 50%;
+	color: red; 
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	
+	/*visibility: hidden;*/
+  }
+  video:hover~#video_logo{
+	opacity: 1;
+  }
+ #video_logo:hover {
+	opacity: 1;
+  }  
+
+
+#skip_Ad {
+	position: absolute;
+	top: 620px; /*450*/
+	left: 1230px; /*820*/
+	width: 70px;
+	height: 70px;
+	opacity: 1;
+	transition: opacity .5s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 100%;
+	/*background: #FFFFFFDD;
+	color: red; */
+	font-weight: bold;
+	line-height: 80px;
+	text-align: center;
+	
+	visibility: hidden;
+	/* End */
+  }
+video:hover~#skip_Ad {
+	opacity: 1;
+  }
+#skip_Ad:hover {
+	opacity: 1;
+  } 
+
+#currentAdPoints{
+	background: black;
+	position: absolute;
+	top: 700px; 
+	left: 1000px; 
+	width: 300px;
+	height: 40px;
+	opacity: 1;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	color: white; 
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	
+	visibility: hidden;
+  }
+  video:hover~#currentAdPoints {
+	opacity: 1;
+  }
+ #currentAdPoints:hover {
+	opacity: 1;
+  }  
+
+
+  
+#adText{
+	position: absolute;
+	top: 200px; 
+	left: 0px; 
+	width: 700px;
+	height: 30px;
+	opacity: 1;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 50%;
+	color: red; 
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	
+	visibility: hidden;
+  }
+  video:hover~#adText {
+	opacity: 1;
+  }
+ #adText:hover {
+	opacity: 1;
+  }  
+
+
+  
+
+
+  
+#adMark{
+	position: absolute;
+	top: 554px; /*715*/
+	left: 343px; /*500*/
+	width: 5px;
+	height: 5px;
+	opacity: 0;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 50%;
+	color: red; 
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+
+	/*visibility: hidden;*/
+}
+  video:hover~#adMark {
+	opacity: 1;
+	visibility: hidden;
+  }
+ #adMark:hover {
+	opacity: 1;
+	visibility: hidden;
+  }  
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+  }
+
+
+
+  #adMark2{
+	position: absolute;
+	top: 554px; /*715*/
+	left: 530px; /*500*/
+	width: 5px;
+	height: 5px;
+	opacity: 0;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 50%;
+	color: red; 
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+
+	/*visibility: hidden;*/
+}
+  video:hover~#adMark2 {
+	opacity: 1;
+	visibility: hidden;
+  }
+ #adMark2:hover {
+	opacity: 1;
+	visibility: hidden;
+  }  
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+  }
+
+
+  
+  #adMark3{
+	position: absolute;
+	top: 554px; /*715*/
+	left: 720px; /*500*/
+	width: 5px;
+	height: 5px;
+	opacity: 0;
+	transition: opacity .3s ease;
+	cursor: pointer;
+	
+	/* Additional styles just to increase visual appeal */
+	border-radius: 50%;
+	color: red; 
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+		
+}
+  video:hover~#adMark3 {
+	opacity: 1;
+  }
+ #adMark3:hover {
+	opacity: 1;
+  }  
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+  }
+
+  
+
+
+/* Right top button */
+
+.dropdown{
+	position:fixed;
+	top:15px;
+	right:30px;
+  }
+  
+  .dropbtn {
+	border: none;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+ 
+  
+  
+  
+  
+  

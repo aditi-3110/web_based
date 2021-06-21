@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="custom.css">
+  </head>
+
+  <body>
+    <div class="head">
+      <div class="logo_left">
+      </div>
+      <div class="app-logo">
+      <img src="video/app-logo6.png" height="150px" width="400px" align="center">
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><img src="video/user.png " height="30px" width="30px"> Welcome XYZ !</button>
+        <div class="dropdown-content">
+         
+            <b><a href="#">User ID: 0001</a></b>
+        
+          
+          <b>
+            <a href="javascript:window.open('qr.html', 'yourWindowName', 'width=200,height=200');">Add Credits</a>
+          </b>
+          
+          <h4 style="text-align:left;float:left;margin-left:20px;margin-top:15px;">Credits:</h4>
+          <h4 style="text-align:left;float:left;margin-left:10px;margin-top:15px;"><div id="points"></div></h4>
+          
+          <div style = "position:relative; left:20px; top:2px;" id="skip_all_ads"><button id="SkipAllAdsButton" onclick="SkipAllAds()" disabled>Skip All Ads</button></div>
+
+          <h5></h5>
+
+          <div style = "position:relative; left:20px; top:2px;" id="undo_skip_all"><button id="UndoSkipAllAdsButton" onclick="UndoSkipAllAds()" disabled>Undo Skip All Ads</button></div>
+
+          <h5></h5>
+
+        </div>
+      </div>
+    <!--
+      <div class="logo">
+        <img id="logo" src="video/user.png" height="50px" width="50px">
+      </div>
+    <div class="user_details">
+      <h4 class="user_name" >Welcome XYZ!</h4>
+          <h4 style="text-align:left;float:left;">Credits :</h4>
+          <h4 style="text-align:right;float:right;"><div id="points"></div></h4>
+          <div id="skip_all_ads"><button id="SkipAllAdsButton" onclick="SkipAllAds()">Skip All Ads</button></div>
+    </div>
+    -->
+    </div>
+
+    <div class="left-table">
+      
+    </div>
+
+    <div class="right-table">
+
+   
+    <table class="outer_table">
+      <tr>
+        <td >
+         
+        </td>
+
+        <td style="background-color:#0a81ab">
+          <figure class="figureMain" id="video_player">
+            <video id="myvideo" controls width="100%" height="100%" style="max-height:600px;">
+                <source src="video/great_wall.mp4" type="video/mp4">
+            </video>
+            
+            <figcaption>
+              <table class="inner_table">
+                <tr>
+                  <td>
+                    <
+                  </td>
+                  <td>
+                    <a id="alink1" href="video/great_wall.mp4"><img src="video/great_wall.jpg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    <a id="alink2" href="video/dark_knight.mp4"><img src="video/darkknight.jpeg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    <a id="alink3" href="video/marvel.mp4"><img src="video/avengers.jpeg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    <a id="alink3" href="video/marvel.mp4"><img src="video/spiderman.jpeg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    <a id="alink3" href="video/marvel.mp4"><img src="video/acquaman.jpeg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    <a id="alink3" href="video/marvel.mp4"><img src="video/oldgaurd.jpeg" height="200px" width="152px"></a>
+                  </td>
+                  <td>
+                    >
+                  </td>
+                </tr>
+              </table>
+            </figcaption>
+          </figure>
+        </td>
+      </tr>
+  </table>
+<!--</table>-->
+
+</div>
+
+  <div id="skip_Ad"><button onclick="skipTheAd()">SKIP AD</button></div>
+  <div id="currentAdPoints"></div>
+  <div id="adText">Ad</div>
+  <div id="video_logo">
+  </div>
+  <div id="adMark"><span class="dot"></span></div>
+  <div id="adMark2"><span class="dot"></span></div>
+  <div id="adMark3"><span class="dot"></span></div>
+
+  </body>
+</html>
+
+<script type="text/javascript" src="adPlayer_new.js"></script>
+
+<!--
+<script type="text/javascript" src="player.js"></script>
+<script src="adPlayer1.js"></script>
+<script src="adPlayer2.js"></script>
+<script src="adPlayer3.js"></script>
+-->
+
